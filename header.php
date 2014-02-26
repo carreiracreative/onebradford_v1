@@ -21,18 +21,21 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</div>
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
+<div id="container" class="cf">  
+<a name="ob-header"></a>
+  <header class="span12">
+  	<div class="inner cf">
+  		<h1 class="alt span4"><img id="OB-logo" style="padding-top:100px;" src="http://cla6ixdesign.com/staging/wp-content/uploads/one-bradford/OB-Logo-Header.png"></h1>
+  	<nav id="OB-nav" class="span8 col" style="padding-top:135px;">
+			<ul class="cf">
+				<nav id="site-navigation" class="main-navigation" role="navigation">
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'onebradford_v1' ); ?></h1>
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'onebradford_v1' ); ?></a>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+			</ul>
+		</nav><!-- #site-navigation -->			
+	</div>
+  </header>
 
-	<div id="content" class="site-content">
+</head>
