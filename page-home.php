@@ -10,9 +10,9 @@ get_header(); ?>
 		<article class="span12">
 			
 		<section>
-        <div class="span12">
-        <img style="padding:20px; width:1040px;" src="http://cla6ixdesign.com/staging/wp-content/uploads/one-bradford/OB-Slider-placeholder.jpg">
-        </div>
+        <div class="span12" style="padding-bottom:20px;padding-left:20px;">
+<?php if ( function_exists('easingsliderpro') ) { easingsliderpro( 1 ); } ?>
+         </div>
         </section>
 			
 			<a name="Services"></a>
@@ -77,7 +77,11 @@ get_header(); ?>
         </div>
         <div class="span4">
 		<h3>FACEBOOK</h3>
+		          <p>COMING SOON</p>
+
 		<h3>TWITTER</h3>
+		          <p>COMING SOON</p>
+
 		</div>
           </section>
         

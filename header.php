@@ -28,10 +28,10 @@
   		<h1 class="alt span4"><img id="OB-logo" style="padding-top:100px;max-width:99%;" src="http://cla6ixdesign.com/staging/wp-content/uploads/one-bradford/OB-Logo-Header.png"></h1>
   	<nav id="OB-nav" class="span8 col">
 			<ul class="cf">
-				<li><a class="alt" href="#Contact">CONTACT</a></li>
-				<li><a class="alt" href="#Social">SOCIAL</a></li>
-				<li><a class="alt" href="#Services">SERVICES</a></li>
-				<li><a class="alt" href="#About">ABOUT</a></li>
+				<li><a class="alt" href="http://onebradford.com/#Contact">CONTACT</a></li>
+				<li><a class="alt" href="http://onebradford.com/#Social">SOCIAL</a></li>
+				<li><a class="alt" href="http://onebradford.com/#Services">SERVICES</a></li>
+				<li><a class="alt" href="http://onebradford.com/#About">ABOUT</a></li>
 			</ul>
 		</nav><!-- #site-navigation -->			
 	</div>

@@ -30,6 +30,7 @@
     </section>
     <section id="footer-form">
     <h3 style="color:white">CONTACT US</h3>
+    <?php gravity_form(1, false, false, false, '', false); ?>
     </section>
     
   </footer>
