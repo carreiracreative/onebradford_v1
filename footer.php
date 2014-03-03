@@ -10,18 +10,34 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<?php do_action( 'onebradford_v1_credits' ); ?>
-			<a href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s', 'onebradford_v1' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'onebradford_v1' ), 'OneBradford_v1', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
 <a name="Contact"></a>
+  <footer class="span12">
+    <section id="footer-logo">
+    <img style="float:left; padding-bottom:20px; width:70%" src="http://cla6ixdesign.com/staging/wp-content/uploads/one-bradford/OB-Logo-Footer.png">
+    <br>
+    <div id="footer-nav">
+    <a style="color:white;" href="#About">ABOUT</a><br>
+    <a style="color:white;" href="#Services">SERVICES</a><br>
+    <a style="color:white;" href="#Contact">CONTACT</a><br>
+    <a style="color:white;" href="#Social">SOCIAL</a><br>
+    </div>
+    <div id="footer-info">
+    <strong>Kirsten DiChiappari</strong><br>
+	Managing Director<br>
+	<a style="color:white;" href="mailto:kirsten@onebradford.com">kirsten@onebradford.com</a><br>
+	401.424.9142<br>
+    </div>
+    </section>
+    <section id="footer-form">
+    <h3 style="color:white">CONTACT US</h3>
+    </section>
+    
+  </footer>
+  </div> <!--! end of #container -->
 
 <?php wp_footer(); ?>
 
 </body>
 </html>
+
+    
