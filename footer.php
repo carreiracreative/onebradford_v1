@@ -19,6 +19,7 @@
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+<a name="Contact"></a>
 
 <?php wp_footer(); ?>
 

@@ -25,14 +25,13 @@
 <a name="ob-header"></a>
   <header class="span12">
   	<div class="inner cf">
-  		<h1 class="alt span4"><img id="OB-logo" style="padding-top:100px;" src="http://cla6ixdesign.com/staging/wp-content/uploads/one-bradford/OB-Logo-Header.png"></h1>
-  	<nav id="OB-nav" class="span8 col" style="padding-top:135px;">
+  		<h1 class="alt span4"><img id="OB-logo" style="padding-top:100px;max-width:99%;" src="http://cla6ixdesign.com/staging/wp-content/uploads/one-bradford/OB-Logo-Header.png"></h1>
+  	<nav id="OB-nav" class="span8 col">
 			<ul class="cf">
-				<nav id="site-navigation" class="main-navigation" role="navigation">
-			<h1 class="menu-toggle"><?php _e( 'Menu', 'onebradford_v1' ); ?></h1>
-			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'onebradford_v1' ); ?></a>
-
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				<li><a class="alt" href="#Contact">CONTACT</a></li>
+				<li><a class="alt" href="#Social">SOCIAL</a></li>
+				<li><a class="alt" href="#Services">SERVICES</a></li>
+				<li><a class="alt" href="#About">ABOUT</a></li>
 			</ul>
 		</nav><!-- #site-navigation -->			
 	</div>
