@@ -76,12 +76,10 @@ get_header(); ?>
           <p>COMING SOON</p>
         </div>
         <div class="span4">
-		<h3>FACEBOOK</h3>
-		          <p>COMING SOON</p>
-
-		<h3>TWITTER</h3>
-		          <p>COMING SOON</p>
-
+		<h3 style="padding-bottom:15px;color:#009cc1;">FACEBOOK</h3>
+		     <?php echo do_shortcode('[custom-facebook-feed]'); ?>
+		<h3 style="padding-bottom:15px;color:#009cc1;">TWITTER</h3>
+		      <?php echo do_shortcode('[kebo_tweets count="3"]'); ?>
 		</div>
           </section>
         

@@ -13,7 +13,7 @@
 <a name="Contact"></a>
   <footer class="span12">
     <section id="footer-logo">
-    <img style="float:left; padding-bottom:20px; width:70%" src="http://cla6ixdesign.com/staging/wp-content/uploads/one-bradford/OB-Logo-Footer.png">
+    <a href="#ob-header"><img style="float:left; padding-bottom:20px; width:70%" src="http://cla6ixdesign.com/staging/wp-content/uploads/one-bradford/OB-Logo-Footer.png"></a>
     <br>
     <div id="footer-nav">
     <a style="color:white;" href="#About">ABOUT</a><br>
